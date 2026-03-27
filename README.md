@@ -26,7 +26,7 @@ UVC-WiFi-Camera-Tool: A Python-based GUI for hardware validation via Serial/WiFi
 
 - **Python**: 3.x
 - **Hardware**: USB-to-UART bridge (connected to your target device).
-- **Software**: [PotPlayer](https://potplayer.daum.net/) (highly recommended for the video preview features).
+- **Software**: [PotPlayer](https://potplayer.tv/?lang=zh_TW) (highly recommended for the video preview features).
 
 ## 📦 Installation
 
