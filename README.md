@@ -31,7 +31,7 @@ UVC-WiFi-Camera-Tool: A Python-based GUI for hardware validation via Serial/WiFi
 ## 📦 Installation
 
 1. **Clone the Repo**:
-   git clone https://github.com/YourUsername/UVC-WiFi-Camera-Tool.git && cd UVC-WiFi-Camera-Tool
+   git clone https://github.com/pop79412/UVC-WiFi-Camera-Tool.git && cd UVC-WiFi-Camera-Tool
 2. **Install Dependencies**:
    pip install pyserial pyautogui pygetwindow
 ## 🚀 Quick Start
