@@ -331,9 +331,9 @@ class POC_Controller:
     def init_serial(self):
         ports = serial.tools.list_ports.comports()
         for p in ports:
-            print(p.hwid)
-
-        target_port = next((p.device for p in ports if "USB" in p.hwid and "LOCATION" not in p.hwid), None)
+        if "USB" in info and any(k in info for k in ["SERIAL", "DEVICE", "CH340", "CP210"]):
+                target_port = p.device
+                break
         if target_port:
             try:
                 self.ser = serial.Serial(target_port, 115200, timeout=0.2)
